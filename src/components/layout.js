@@ -11,9 +11,10 @@ const Layout = ({ location, title, children }) => {
     header = (
       <h1
         style={{
-          ...scale(1.5),
+          ...scale(1.2),
           marginBottom: rhythm(1.5),
           marginTop: 0,
+          fontWeight: 200,
         }}
       >
         <Link
@@ -61,7 +62,7 @@ const Layout = ({ location, title, children }) => {
       <header>{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
+        © {new Date().getFullYear()}, Customized by Coby with
         {` `}
         <a href="https://www.gatsbyjs.org">Gatsby</a>
       </footer>
